@@ -1,0 +1,4 @@
+# Anchors this directory as a standalone pnpm workspace root.
+# Prevents pnpm from walking up to a parent workspace.yaml when
+# install is run from this directory.
+packages: []
